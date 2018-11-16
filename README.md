@@ -9,7 +9,7 @@ Database contains 1000 rows of randomly populated customer data. Data was popula
 postcards.py: python script that parses through a dynamoDB database,
 checks if today's date is anniversary, and sends a postcard using Lob API. https://lob.com/.
 
-An external cronjob that will run this script everyday at 5am.
+An external cronjob will run this script everyday at 5am.
 
 Snippet of database (from DynamoDB):
 ![DB Schema](https://i.imgur.com/fH0pkWV.png)
